@@ -1,6 +1,3 @@
 [build]
-  publish = "dist"  # Altere "dist" para o nome do diretório onde seu projeto é compilado.
-  command = "npm run build"  # Altere para o comando que compila seu projeto.
-
-[build.environment]
-  NODE_VERSION = "18.16.0"
+  publish = "build"  # Atualize para "build", que é o diretório gerado.
+  command = "npm run build"
